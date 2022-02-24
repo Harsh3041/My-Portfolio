@@ -1,0 +1,580 @@
+body,html{
+    height: 200%;
+}
+#body-header{
+    background-image: url("");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.1;
+}
+.header{
+    top: -392vh;
+    position: relative;
+    margin: auto;
+}
+.header div img{
+    margin-top: 15px;
+    height: 90px;
+    width: 8%;
+}
+
+.horizontal-list{
+    list-style-type: none;
+    padding-left: 0px;
+    
+  
+}
+.horizontal-list li{
+    margin: 0px 8px 8px 30px;
+    position: relative;
+    display: inline-block;
+    top: -405vh;
+    left: 120px;
+    font-size: 20px;
+    
+}
+
+.horizontal-list li a{
+    color: black;
+    text-decoration: none;
+}
+
+.download {background-image: linear-gradient(to right, #f16664 0%, #e35d5b  51%, #ff9492  100%)}
+.download {
+    top: 40px;
+    left: 1070px;
+   margin: 10px;
+   margin: 0px 8px 8px 30px;
+   position: absolute;
+   padding: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 40px;
+   display: block;
+   font-size: 15px;
+ }
+
+ .download:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ /*Styling Name*/
+ 
+ .myname{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 220px;
+    left: 400px;
+    font-size: 15vh;
+    font-weight: bolder;
+    font-family: "Lucida Console";
+    color: red;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+ }
+ .lastname{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 320px;
+    left: 620px;
+    font-size: 5vh;
+    font-family: 'Dancing Script', cursive;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+ }
+
+/*Styling My Image*/
+ .myimg{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 220px;
+    left: 920px;
+    height: 60rem;
+    width: 60rem;
+ }
+
+ .myimg img{
+    height: 30%;
+    width: 330px;
+    border-radius: 0%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+ }
+
+ /*My skills*/
+
+ .data{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 470px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+ }
+/*List containing personal info*/
+ .infolist{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 530px;
+    left: 50px;
+    font-size: 20px;
+ }
+
+ /*List containing social icons*/
+ .socialicons ul{
+    list-style: none;
+ }
+ .socialicons ul li{
+    margin: 0px 8px 8px 30px;
+    position: relative;
+     display: inline-block;
+     top: -317vh;
+     border-radius: 50%;
+ }
+
+ .socialicons li:hover{
+    box-shadow: 0px 0px 6px 4px rgba(71, 71, 71, 0.3);
+ }
+
+ .socialicons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(71, 71, 71, 0.3);
+ }
+
+ .socialicons ul li i{
+     font-size: 25px;
+     color: black;
+ }
+
+ /*Styling skills section*/
+ .skills{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 120vh;
+    left: 70px;
+    font-size: 70px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .skills-logo{
+    margin: 0px 8px 8px 90px;
+    position: absolute;
+    left: 20px;
+    top: 140vh;
+    display: flex;
+    flex-direction: row;
+    
+ }
+.logo-container div{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rest{
+    margin: 0px 8px 8px 90px;
+    position: absolute;
+    left: 20px;
+    top: 160vh;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left{
+    margin: 0px 8px 8px 90px;
+    position: absolute;
+    left: 20px;
+    top: 180vh;
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ .skills-logo img{
+    height: 50px;
+    width: 50px;
+ }
+
+ .rest img{
+    height: 50px;
+    width: 50px;
+ }
+
+ .left img{
+    height: 50px;
+    width: 50px;
+ }
+
+ .sections{
+     left: 100px;
+     top: 150vh;
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+     height: 250px;
+     width: 25%;
+     background-color: #bdbd9c;
+     opacity: 0.2;
+     border-radius: 10%;
+ }
+ 
+ .drum{
+     text-align: center;
+     color: black;
+ }
+ 
+ /*Styling skill name*/
+
+ .html{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 7px;
+    left: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+ 
+ .css{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 7px;
+    left: 26%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+ .js{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 7px;
+    left: 50.5%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+ .react{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 7px;
+    left: 73.5%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .node{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 7px;
+    left: 97%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .git{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .github{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 26%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .java{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 49.5%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+ .vs-code{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 74%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    
+ }
+ .c{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 97%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .ppt{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .word{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 26%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .cloud{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 49.5%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .drive{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 74%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ .excel{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 5px;
+    left: 97.5%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ /*Education Section*/
+
+ .education h1{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 200vh;
+    left: 70px;
+    font-size: 60px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .course{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 220vh;
+    left: 70px;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .education img{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    border-radius: 70%;
+    top: 230vh;
+    left: 70px;
+    height: 180px;
+    width: 180px;
+ }
+
+ .education a{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 237vh;
+    left: 280px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ #time{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 242vh;
+    left: 280px;
+    font-family: 'Roboto', sans-serif;
+   
+ }
+
+ .experience h1{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 280vh;
+    left: 70px;
+    font-size: 60px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ .experience a{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 300vh;
+    left: 70px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+ }
+
+ .role{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 307vh;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    left: 70px;
+ }
+
+ .experience .para{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 312vh;
+    left: 70px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .experience ul{
+    margin: 0px 8px 8px 30px;
+    position: absolute;
+    top: 320vh;
+    left: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+ }
+
+ .projects h1{
+    position: absolute;
+    color: red;
+    top: 350vh;
+    margin: 0px 8px 8px 30px;
+    left: 70px;
+    font-size: 60px;
+ }
+
+ .flex-container{
+    position: absolute;
+    left: 90px;
+    display: flex;
+    top: 370vh;
+ }
+ 
+ .flex-container > div{
+    
+   margin: 20px;
+   height: 45vh;
+   width: 25vw;
+   background-color: rgb(216,213,213);
+   border-radius: 10px;
+ }
+
+ .onepro{
+    text-align: center;
+    color: white;
+ }
+ .oneproinfo{
+    text-align: center;
+    padding: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+ }
+ .firstbox{
+    border: solid black 1px;
+   background-image: url('images/drums.jpeg');
+   background-size: 100% 100%;
+   animation-duration: 1s;
+    animation-iteration-count: 1;
+ }
+
+ .text{
+    visibility: hidden;
+ }
+ .firstbox:hover .text{
+    color: #f1f1f1;
+    visibility: visible;
+    
+ }
+
+ .firstbox:hover{
+    transition-duration: 0.2;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    transition-timing-function: ease-in-out;
+    background: rgba(0,0,0,0.5);
+    animation-delay: 2s;
+ }
+ .second_pro{
+    text-align: center;
+ }
+
+ .second_pro img{
+    position: absolute;
+    height: 50px;
+    margin-left: -50px;
+ }
+
+ .secondbox{
+    background-image: url('images/netflixlogo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: whitesmoke;
+    border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+ }
+
+ .secondbox:hover{
+    background: rgba(0,0,0,0.5);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+
+ }
+ .secondbox:hover .text{
+    visibility: visible;
+ }
+ .about_net{
+    padding: 40px;
+ }
+
+ 
